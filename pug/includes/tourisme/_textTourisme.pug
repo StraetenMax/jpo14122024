@@ -14,9 +14,14 @@
         }
     ]
 
-//- section Texte
+//- section Texte   
+mj-section(background-color='#ffffff' padding="0 20px")
+        mj-column(width="20%" padding="10px" background-color="red" css-class="stop")
+            mj-text xxxxxxxxx
+        mj-column(width="80%" padding="10px")
+            mj-text(align="left" padding="0" mj-class='T+2 c+1') Ecosup Tourisme vous ouvre ses Portes !
 mj-section(background-color='#ffffff' padding='0 20px')  
-        mj-column(width="20%" padding="10px")
+        mj-column(width="20%" padding="10px" css-class="stop")
             each logo in logosList
                 mj-image(padding="0" border="none" width="150px" src=logo.image alt=logo.alt)/
         mj-column(width='80%' padding="10px")
