@@ -13,8 +13,8 @@
     </mj-raw>
     <mj-attributes>
       <mj-all font-family="Roboto, Arial, Helvetica,sans serif"/>
-      <mj-class name="T+3" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="36px" line-height="38px" font-weight="700"/>
-      <mj-class name="T+2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24px" line-height="28px" font-weight="900"/>
+      <mj-class name="T+3" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="36px" line-height="36px" font-weight="900"/>
+      <mj-class name="T+2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24px" line-height="28px" font-weight="700"/>
       <mj-class name="T+1" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" font-weight="700"/>
       <mj-class name="T" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" font-weight="400"/>
       <mj-class name="T-1" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="13px" line-height="15px" font-weight="400"/>
@@ -79,25 +79,26 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section padding="0" background-color="#ffffff">
-      <mj-group>
-        <mj-column vertical-align="middle">
-          <mj-text align="right" padding="0" mj-class="T cT+1"><strong>Clément <span style="text-transform:uppercase">Duhamel</span></strong></mj-text>
-          <mj-text align="right" padding="0" mj-class="T cT+1">Responsable pédagogique</mj-text>
-          <mj-text align="right" padding="0" mj-class="T cT+1">Ecosup Tourisme</mj-text>
+    <mj-section padding-bottom="0" padding-left="20px" padding-right="20px" background-color="#ffffff">
+      <mj-group width="300px">
+        <mj-column width="30%" padding="4px">
+          <mj-image align="right" padding="0" fluid-on-mobile="true" src="https://i.ibb.co/wWHLFJT/Clementjpo25052024.jpg" width="150px" alt="Clément Duhamel responsable pédagogique Ecosup Tourisme "/>
         </mj-column>
-        <mj-column vertical-align="middle">
-          <mj-image align="left" padding="5px" src="https://i.ibb.co/wWHLFJT/Clementjpo25052024.jpg" width="120px" alt="Clément Duhamel responsable pédagogique Ecosup Tourisme "/>
+        <mj-column width="70%" vertical-align="bottom" padding="4px">
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1"><strong>Clément <span style="text-transform:uppercase">Duhamel</span></strong></mj-text>
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Responsable pédagogique</mj-text>
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Ecosup Tourisme</mj-text>
         </mj-column>
       </mj-group>
+      <mj-column width="30%"></mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0 20px"> 
-      <mj-column width="20%" padding="10px" css-class="stop">
+      <mj-column width="20%" padding="10px" css-class="stop" vertical-align="middle">
         <mj-image padding="0" border="none" width="150px" src="https://i.ibb.co/fNjtWMS/Logo-Tourisme08.jpg" alt="logo couleur Mariot voyages"/>
         <mj-image padding="0" border="none" width="150px" src="https://i.ibb.co/7Kt5FTX/Logo-Tourisme06.jpg" alt="logo couleur civi-ling"/>
         <mj-image padding="0" border="none" width="150px" src="https://i.ibb.co/1q7Rs5C/Logo-Tourisme05.jpg" alt="logo couleur Planète Crosière"/>
       </mj-column>
-      <mj-column width="80%" padding="10px">
+      <mj-column width="80%" padding="10px" vertical-align="middle">
         <mj-text align="left" padding="0" mj-class="T+3 c+1">Ecosup Tourisme vous ouvre ses Portes !</mj-text>
         <mj-spacer height="10px"></mj-spacer>
         <mj-text padding="0" mj-class="T cT+1"><span style="font-weight:700;">{{ contact.PRENOM }}</span>, les métiers du Tourisme vous intéressent ?</mj-text>
