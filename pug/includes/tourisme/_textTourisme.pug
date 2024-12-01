@@ -1,24 +1,33 @@
 -
     const logosList = [
         {
-            'image':'https://i.ibb.co/fNjtWMS/Logo-Tourisme08.jpg',
-            'alt':'logo couleur Mariot voyages'
+            'image':'https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png',
+            'alt':'logo Academie de Lille'
         },
         {
-            'image':'https://i.ibb.co/7Kt5FTX/Logo-Tourisme06.jpg',
-            'alt':'logo couleur civi-ling'
+            'image':'https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png',
+            'alt':'logo Formatives, network'
         },
         {
-            'image':'https://i.ibb.co/1q7Rs5C/Logo-Tourisme05.jpg',
-            'alt':'logo couleur Planète Crosière'
-        }
+            'image':'https://i.ibb.co/4KBjqnQ/logo-Fedejpo12142024.png',
+            'alt':'logo Fede'
+        },
+        {
+            'image':'https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png',
+            'alt':'logo RNCP'
+        },
+        {
+            'image':'https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png',
+            'alt':'logo Qualiopi : Action de formation, Action de formation par apprentissage'
+        },
     ]
 
 //- section Texte   
 mj-section(background-color='#ffffff' padding='0 20px')  
         mj-column(width="20%" padding="10px" css-class="stop" vertical-align="middle")
             each logo in logosList
-                    mj-image(padding="0" border="none" width="150px" src=logo.image alt=logo.alt)/
+                    mj-image(align="left" padding="0" border="none" width="70px" src=logo.image alt=logo.alt)/
+                    mj-divider(mj-class="L cT+1")
         mj-column(width='80%' padding="10px" vertical-align="middle")
             mj-text(align="left" padding="0" mj-class='T+3 c+1') Ecosup Tourisme vous ouvre ses Portes !
             mj-spacer(height='10px')
