@@ -66,17 +66,17 @@
     <mj-section padding="0" mj-class="bg-0">
       <mj-group width="50%">
         <mj-column width="100%">
-          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/c2J7RNK/affjpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 14 décembre 2024"/>
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-hotellerie.fr" src="https://i.ibb.co/c2J7RNK/affjpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 14 décembre 2024"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="50%">
-          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/7p8nF7C/02assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>     
-          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/6vGTNbk/03assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>     
+          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-hotellerie.fr" src="https://i.ibb.co/PGNXJB4/01img-JPO14122024.jpg" target="_blank" alt="Travail dans la cuisine du restaurant d'application"/>     
+          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-hotellerie.fr" src="https://i.ibb.co/5jvk5SN/img-JPO14122024-02.jpg" target="_blank" alt="Équipe restauration : salle et cuisine"/>     
         </mj-column>
         <mj-column width="50%">
-          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/0rsGYy0/01assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>
-          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/vdr8Bs4/04assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>
+          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-hotellerie.fr" src="https://i.ibb.co/6vGTNbk/03assurancejpo14122024.jpg" target="_blank" alt="lancement de chapeau lors de la soirée de la remise des diplômes"/>
+          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-hotellerie.fr" src="https://i.ibb.co/PT0vB7P/img-JPO14122024-03.jpg" target="_blank" alt="Équipe restauration : salle et cuisine"/>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -128,51 +128,61 @@
         <mj-text padding-bottom="0" padding-top="0" mj-class="T cT+1"><span style="font-weight:700">Entreprises partenaires</span> qui accueillent nos étudiants</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding-bottom="40px"> 
-      <mj-group width="480px">
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qNZP5dP/LogoA14.jpg" alt="logo couleur Hôtel Moustache"/>
+    <mj-section background-color="#ffffff" padding="20px 28px 40px 28px"> 
+      <mj-group width="50%">
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8z2m91y/LogoA2.jpg" alt="logo Global Hôtel Alliance"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VHwDR7d/LogoA13.jpg" alt="logo couleur des 3 Brasseurs"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qNZP5dP/LogoA14.jpg" alt="logo Hôtel Moustache"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vz8Rrt2/LogoA12.jpg" alt="logo couleur Fée Maison"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/JrbkKBG/Hotellerie20.jpg" alt="logo Hôtel Le Bristol Paris"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/z5ZgwTw/LogoA11.jpg" alt="logo couleur L'Hermitage Gantois"/>
-        </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/L85ZfG1/LogoA10.jpg" alt="logo couleur Best Western"/>
-        </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/n6nKRBn/LogoA9.jpg" alt="logo couleur Small Luxury Hotels"/>
-        </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ZXr5mLx/LogoA8.jpg" alt="logo couleur Hotel Najeti"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VHwDR7d/LogoA13.jpg" alt="logo des 3 Brasseurs"/>
         </mj-column>
       </mj-group>
-      <mj-group width="480px">
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VYL89kZ/LogoA7.jpg" alt="logo couleur Sodexo"/>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vz8Rrt2/LogoA12.jpg" alt="logo Fée Maison"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/DKZDvtz/LogoA6.jpg" alt="logo couleur Hôtel Couvent des minimes"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/z5ZgwTw/LogoA11.jpg" alt="logo L'Hermitage Gantois"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zr8TQyS/LogoA5.jpg" alt="logo couleur Hotel HLE"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/L85ZfG1/LogoA10.jpg" alt="logo Best Western"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QXFVhNW/LogoA4.jpg" alt="logo couleur Carlton Hôtel"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/n6nKRBn/LogoA9.jpg" alt="logo Small Luxury Hotels"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gw0vV3g/LogoA3.jpg" alt="logo couleur L'Arbre Voyageur"/>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ZXr5mLx/LogoA8.jpg" alt="logo Hotel Najeti"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8z2m91y/LogoA2.jpg" alt="logo couleur Global Hôtel Alliance"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/DKZDvtz/LogoA6.jpg" alt="logo Hôtel Couvent des minimes"/>
         </mj-column>
-        <mj-column padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/pRydwkm/LogoA1.jpg" alt="logo couleur Accor"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VYL89kZ/LogoA7.jpg" alt="logo Sodexo"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zr8TQyS/LogoA5.jpg" alt="logo Hotel HLE"/>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QXFVhNW/LogoA4.jpg" alt="logo Carlton Hôtel"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gw0vV3g/LogoA3.jpg" alt="logo L'Arbre Voyageur"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PGss0H7/Hotellerie21.jpg" alt="logo Hôtel Septentrion"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/pRydwkm/LogoA1.jpg" alt="logo Accor"/>
         </mj-column>
       </mj-group>
     </mj-section>//- Comment s'y rendre
