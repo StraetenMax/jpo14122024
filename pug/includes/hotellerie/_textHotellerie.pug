@@ -5,8 +5,12 @@
             'alt':'logo académie de Lille'
         },
         {
-            'image':'https://i.ibb.co/sJCtDXM/logo-ESAjpo12142024.png',
-            'alt':'logo ESA École Supérieure d\'Assurance'
+            'image':'https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png',
+            'alt':'logo Formatives, network '
+        },
+        {
+            'image':'https://i.ibb.co/4KBjqnQ/logo-Fedejpo12142024.png',
+            'alt':'logo FEDE, Federation for EDucation Europe'
         },
         {
             'image':'https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png',
@@ -19,11 +23,11 @@
     ]
 //- section Texte
 mj-section(background-color='#ffffff' padding='0 20px')
-    mj-column(width="20%" padding="10px" css-class="stop" vertical-align="top")
+    mj-column(width="20%" padding="10px" css-class="stop" vertical-align="middle")
         each logo in logosList
             mj-image(align="left" padding="0" border="NONE" width="70px" src=logo.image alt=logo.alt)/
             mj-divider(mj-class="L cT+1")
-    mj-column(width='80%' padding="10px" vertical-align="top")
+    mj-column(width='80%' padding="10px" vertical-align="middle")
         mj-text(align="left" padding='0' mj-class='T+3 c+1') Ecosup Assurance vous ouvre ses Portes !
         mj-spacer(height='10px')
         mj-text(padding='0' mj-class='T cT+1') #[span(style='font-weight:700;') {{ contact.PRENOM }}], les métiers de l'Hôtellerie et de la Restauration vous intéressent ?
