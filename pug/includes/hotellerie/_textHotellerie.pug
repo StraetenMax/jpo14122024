@@ -1,0 +1,35 @@
+-
+    const logosList = [
+        {
+            'image':'https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png',
+            'alt':'logo académie de Lille'
+        },
+        {
+            'image':'https://i.ibb.co/sJCtDXM/logo-ESAjpo12142024.png',
+            'alt':'logo ESA École Supérieure d\'Assurance'
+        },
+        {
+            'image':'https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png',
+            'alt':'logo RNCP'
+        },
+        {
+            'image':'https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png',
+            'alt':'logo Qualiopi : Action de formation, Action de formation par apprentissage'
+        }
+    ]
+//- section Texte
+mj-section(background-color='#ffffff' padding='0 20px')
+    mj-column(width="20%" padding="10px" css-class="stop" vertical-align="top")
+        each logo in logosList
+            mj-image(align="left" padding="0" border="NONE" width="70px" src=logo.image alt=logo.alt)/
+            mj-divider(mj-class="L cT+1")
+    mj-column(width='80%' padding="10px" vertical-align="top")
+        mj-text(align="left" padding='0' mj-class='T+3 c+1') Ecosup Assurance vous ouvre ses Portes !
+        mj-spacer(height='10px')
+        mj-text(padding='0' mj-class='T cT+1') #[span(style='font-weight:700;') {{ contact.PRENOM }}], les métiers de l'Hôtellerie et de la Restauration vous intéressent ?
+        mj-text(padding='0' mj-class='T cT+1') Vous souhaitez intégrer ce secteur et développer vos compétences dans le cadre d'une #[span(style='font-weight:700;') alternance]... venez nous rejoindre 
+        mj-text(padding-bottom="0" mj-class='T+2 c+1') Samedi 14 décembre
+        mj-text(padding-top="0" mj-class='T+2 c+1') de 9h30 à 13h.
+        mj-text(padding='0' mj-class='T cT+1') Qu'il s'agisse de vous réorienter ou de vous professionnaliser, vous trouverez auprès de nos équipes, #[span(style='font-weight:700;') toutes les réponses à vos questions].
+        mj-text(padding='0' mj-class='T cT+1') Venez découvrir notre #[span(style='font-weight:700;') campus] et rencontrer nos #[span(style='font-weight:700;') intervenants] et #[span(style="font-weight:700") professionnels reconnus].
+        mj-text(padding='0' mj-class='T cT+1') Une invitation à ne pas manquer pour devenir l'acteur de votre avenir et #[span(style='font-weight:700;') gagner en compétences] !

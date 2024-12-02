@@ -22,21 +22,21 @@
       <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"></mj-class>
       <mj-class name="cT+1" color="#14141f" border-color="#14141f"/>
       <mj-class name="cT+0" color="#626262"/>
-      <mj-class name="c-0" color="#684092"/>
-      <mj-class name="bg-0" background-color="#684092"/>
-      <mj-class name="c+1" color="#ba4995"/>
-      <mj-class name="bg+1" background-color="#ba4995"/>
+      <mj-class name="c-0" color="#c31718"/>
+      <mj-class name="bg-0" background-color="#c31718"/>
+      <mj-class name="c+1" color="#a01a1d"/>
+      <mj-class name="bg+1" background-color="#a01a1d"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
       .c11{
-          color: #ba4995 !important;
+          color: #a01a1d !important;
       }
       .cT00{
           color: #626262 !important;
       }
       
-      @media(max-width:480px){
+      @media(max-width:500px){
           .m-footer div{
               text-align: center !important;
               width: 100% !important;
@@ -60,7 +60,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" border-radius="20px 20px 0 0">
       <mj-column>
-        <mj-image width="200px" src="https://i.ibb.co/V9r4qZ4/ECOSUP-ASSURANCE.png" alt="logo Ecosup Assurance"></mj-image>
+        <mj-image width="200px" src="https://i.ibb.co/QCWNKk5/ecosup-Hotellerie-signature.png" alt="logo Ecosup Hotellerie"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section padding="0" mj-class="bg-0">
@@ -80,19 +80,17 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section padding-bottom="0" padding-left="20px" padding-right="20px" background-color="#ffffff">
-      <mj-group width="300px">
-        <mj-column width="30%" padding="4px">
-          <mj-image align="right" padding="0" src="https://i.ibb.co/xMNMtSs/c-A25052024.jpg" width="120px" alt="Christian Annaloro, responsable pédagogique Ecosup Assurance"/>
+    <mj-section background-color="#ffffff">
+      <mj-group>
+        <mj-column width="50%" padding="8px" vertical-align="middle">
+          <mj-image align="right" padding="0" src="https://i.ibb.co/NNTT0VM/Helenejpo25052024.jpg" width="120px" alt="Hélène Salmon, responsable pédagogique Ecosup Hôtellerie"/>
         </mj-column>
-        <mj-column width="70%" vertical-align="bottom" padding="4px">
-          <mj-text align="left" padding="0" mj-class="T-1 cT+1"><strong>Christian <span style="text-transform:uppercase">Annaloro</span></strong></mj-text>
-          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Responsable pédagogique</mj-text>
-          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Ecosup Assurance</mj-text>
-          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Membre BNI France</mj-text>
+        <mj-column width="50%" padding="8px" vertical-align="middle">
+          <mj-text padding="0" mj-class="T cT+1"><strong>Hélène <span style="text-transform:uppercase">Salmon</span></strong></mj-text>
+          <mj-text padding="0" mj-class="T cT+1">Responsable pédagogique</mj-text>
+          <mj-text padding="0" mj-class="T cT+1">Ecosup Hôtellerie</mj-text>
         </mj-column>
       </mj-group>
-      <mj-column width="30%"></mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0 20px">
       <mj-column width="20%" padding="10px" css-class="stop" vertical-align="top">
@@ -104,17 +102,11 @@
         <mj-divider mj-class="L cT+1"></mj-divider>
         <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png" alt="logo Qualiopi : Action de formation, Action de formation par apprentissage"/>
         <mj-divider mj-class="L cT+1"></mj-divider>
-        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/G09QhCx/logo-BNIjpo12142024.png" alt="logo BNI culture business"/>
-        <mj-divider mj-class="L cT+1"></mj-divider>
-        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/zhX9L5R/logo-AGEAjpo12142024.png" alt="logo AGEA agent général d'assurance"/>
-        <mj-divider mj-class="L cT+1"></mj-divider>
-        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/mJ8m8cb/logo-Graftonjpo12142024.png" alt="logo Grafton"/>
-        <mj-divider mj-class="L cT+1"></mj-divider>
       </mj-column>
       <mj-column width="80%" padding="10px" vertical-align="top">
         <mj-text align="left" padding="0" mj-class="T+3 c+1">Ecosup Assurance vous ouvre ses Portes !</mj-text>
         <mj-spacer height="10px"></mj-spacer>
-        <mj-text padding="0" mj-class="T cT+1"><span style="font-weight:700;">{{ contact.PRENOM }}</span>, les métiers de l'Assurance et de la Banque vous intéressent ?</mj-text>
+        <mj-text padding="0" mj-class="T cT+1"><span style="font-weight:700;">{{ contact.PRENOM }}</span>, les métiers de l'Hôtellerie et de la Restauration vous intéressent ?</mj-text>
         <mj-text padding="0" mj-class="T cT+1">Vous souhaitez intégrer ce secteur et développer vos compétences dans le cadre d'une <span style="font-weight:700;">alternance</span>... venez nous rejoindre </mj-text>
         <mj-text padding-bottom="0" mj-class="T+2 c+1">Samedi 14 décembre</mj-text>
         <mj-text padding-top="0" mj-class="T+2 c+1">de 9h30 à 13h.</mj-text>
@@ -133,61 +125,51 @@
         <mj-text padding-bottom="0" padding-top="0" mj-class="T cT+1"><span style="font-weight:700">Entreprises partenaires</span> qui accueillent nos étudiants</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="20px 28px 40px 28px"> 
-      <mj-group width="50%">
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3CfWWxL/Logo-Assurance14.jpg" alt="logo couleur AXA assurance"/>
+    <mj-section background-color="#ffffff" padding-bottom="40px"> 
+      <mj-group width="480px">
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qNZP5dP/LogoA14.jpg" alt="logo couleur Hôtel Moustache"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/h8YcCy9/Logo-Assurance13.jpg" alt="logo couleur SMA btp"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VHwDR7d/LogoA13.jpg" alt="logo couleur des 3 Brasseurs"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/XspTwRh/Logo-Assurance12.jpg" alt="logo couleur DLM location"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vz8Rrt2/LogoA12.jpg" alt="logo couleur Fée Maison"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1vDhhpM/Logo-Assurance11.jpg" alt="logo couleur Concilian"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/z5ZgwTw/LogoA11.jpg" alt="logo couleur L'Hermitage Gantois"/>
         </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/xY71s8T/Logo-Assurance10.jpg" alt="logo couleur Mésange Prévoyance"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/L85ZfG1/LogoA10.jpg" alt="logo couleur Best Western"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r3LzxSd/Logo-Assurance09.jpg" alt="logo couleur groupe Henner"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/n6nKRBn/LogoA9.jpg" alt="logo couleur Small Luxury Hotels"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/phdSYvJ/Logo-Assurance16.jpg" alt="logo caisse d'Épargne"/>
-        </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/KNS4FXx/Logo-Assurance08.jpg" alt="logo couleur Allianz assurance"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ZXr5mLx/LogoA8.jpg" alt="logo couleur Hotel Najeti"/>
         </mj-column>
       </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s3Qyqv3/Logo-Assurance07.jpg" alt="logo couleur Swiss Life"/>
+      <mj-group width="480px">
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VYL89kZ/LogoA7.jpg" alt="logo couleur Sodexo"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Qpm6jgs/Logo-Assurance06.jpg" alt="logo couleur Humanis Malakoff"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/DKZDvtz/LogoA6.jpg" alt="logo couleur Hôtel Couvent des minimes"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qdq473M/Logo-Assurance15.jpg" alt="logo couleur Sofinco"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zr8TQyS/LogoA5.jpg" alt="logo couleur Hotel HLE"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gP4PsSM/Logo-Assurance04.jpg" alt="logo couleur Deledalle courtier d'assurances"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QXFVhNW/LogoA4.jpg" alt="logo couleur Carlton Hôtel"/>
         </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zJXqcYB/Logo-Assurance17.jpg" alt="logo couleur Credit Agricole"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gw0vV3g/LogoA3.jpg" alt="logo couleur L'Arbre Voyageur"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/mzbfQs1/Logo-Assurance03.jpg" alt="logo 2M votre courtier assurancess"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8z2m91y/LogoA2.jpg" alt="logo couleur Global Hôtel Alliance"/>
         </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6J8BVCd/Logo-Assurance02.jpg" alt="logo couleur MMA assurance"/>
-        </mj-column>
-        <mj-column width="25%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8r9FGG5/Logo-Assurance01.jpg" alt="logo couleur Diot groupe Diot Siaci"/>
+        <mj-column padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/pRydwkm/LogoA1.jpg" alt="logo couleur Accor"/>
         </mj-column>
       </mj-group>
     </mj-section>//- Comment s'y rendre
