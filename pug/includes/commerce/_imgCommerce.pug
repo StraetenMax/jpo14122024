@@ -1,5 +1,5 @@
 -
-    const imagesList1 = [
+    const imgsList1 = [
         {
             'photo':'https://i.ibb.co/7p8nF7C/02assurancejpo14122024.jpg',
             'lien' :'https://ecosup-assurance.fr',
@@ -12,7 +12,7 @@
         }
     ]
 -
-    const imagesList2 = [
+    const imgsList2 = [
         {
             'photo':'https://i.ibb.co/0rsGYy0/01assurancejpo14122024.jpg',
             'lien' :'https://ecosup-assurance.fr',
@@ -31,8 +31,8 @@ mj-section(padding='0' mj-class="bg-0")
             mj-image(width='300px' padding='0' border="none" fluid-on-mobile="true" href='https://ecosup-assurance.fr' src='https://i.ibb.co/c2J7RNK/affjpo14122024.jpg' target='_blank' alt='Affiche de la Journée Portes Ouvertes du samedi 14 décembre 2024')/
     mj-group(width="50%")
         mj-column(width="50%")
-            each image in imagesList1
+            each image in imgsList1
                 mj-image(width='300px' padding='0' border="none" fluid-on-mobile='true' href=image.lien src=image.photo target='_blank' alt=image.alt)/      
         mj-column(width="50%")
-            each image in imagesList2
+            each image in imgsList2
                 mj-image(width='300px' padding='0' border="none" fluid-on-mobile='true' href=image.lien src=image.photo target='_blank' alt=image.alt)/

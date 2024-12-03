@@ -1,7 +1,7 @@
 
 <mjml>
   <mj-head>
-    <mj-title>JPO du 23 novembre 2024 Ecosup</mj-title>
+    <mj-title>JPO du 14 décembre 2024 Ecosup</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&amp;display=swap"></mj-font>
     <mj-raw>
       <meta name='color-scheme' content='light'/>
@@ -13,19 +13,21 @@
     </mj-raw>
     <mj-attributes>
       <mj-all font-family="Roboto, Arial, Helvetica,sans serif"/>
-      <mj-class name="T+2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="30px" line-height="34px" font-weight="700"/>
+      <mj-class name="T+3" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="36px" line-height="36px" font-weight="900"/>
+      <mj-class name="T+2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="24px" line-height="28px" font-weight="700"/>
       <mj-class name="T+1" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" font-weight="700"/>
       <mj-class name="T" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" font-weight="400"/>
       <mj-class name="T-1" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="13px" line-height="15px" font-weight="400"/>
       <mj-class name="T-2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12px" line-height="16px" font-weight="400"/>
-      <mj-class name="cT+1" color="#14141f"/>
+      <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"/>
+      <mj-class name="cT+1" color="#14141f" border-color="#14141f"/>
       <mj-class name="cT+0" color="#626262"/>
       <mj-class name="c-0" color="#f6a86e"/>
       <mj-class name="bg-0" background-color="#f6a86e"/>
       <mj-class name="c+1" color="#ec6608"/>
       <mj-class name="bg+1" background-color="#ec6608"/>
     </mj-attributes>
-    <mj-breakpoint width="500px"></mj-breakpoint>
+    <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
       .c11{
           color: #ec6608 !important;
@@ -44,6 +46,9 @@
               width: 100% !important;
               padding-top:10px !important;
           }
+          .stop{
+              display: none !important;
+          }
       }
     </mj-style>
   </mj-head>
@@ -58,48 +63,40 @@
         <mj-image width="200px" src="https://i.ibb.co/b1ZnTbP/ecosup-Commerce-signature.png" alt="logo Ecosup Commerce"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section padding="0">
-      <mj-group>
-        <mj-column width="50%">
-          <mj-image width="300px" padding="0" border="0" href="https://ecosup-commerce.fr" src="https://i.ibb.co/85Fkg0x/affiche-Jpo23112024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>     
+    <mj-section padding-bottom="0" padding-left="20px" padding-right="20px" background-color="#ffffff">
+      <mj-group width="300px">
+        <mj-column width="30%" padding="4px">
+          <mj-image align="right" padding="0" src="https://i.ibb.co/yQ9SZKR/Marie-Laurencejpo25052024.jpg" width="120px" alt="Marie Laurence Wallaert, responsable pédagogique Ecosup Commerce"/>
         </mj-column>
-        <mj-column width="50%">
-          <mj-image width="300px" padding="0" border="0" href="https://ecosup-commerce.fr" src="https://i.ibb.co/R0Lg1Zh/Com-Jpo23112024.jpg" target="_blank" alt="Hamza, alternant BTS MCO travaille chez Jeff de Bruges"/>     
+        <mj-column width="70%" padding="4px" vertical-align="bottom">
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1"><strong>Marie Laurence <span style="text-transform:uppercase">Wallaert</span></strong></mj-text>
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Responsable pédagogique</mj-text>
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Ecosup Commerce</mj-text>
         </mj-column>
       </mj-group>
+      <mj-column width="30%"></mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="0">
-      <mj-column width="480px">
-        <mj-text align="left" padding-bottom="0" mj-class="T+1 cT+1" text-transform="uppercase">Nos formations BTS et Bachelor</mj-text>
-        <mj-text align="left" padding-top="0" mj-class="T+2 c+1">Ecosup Commerce vous ouvre ses Portes !</mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" padding="0">
-      <mj-column width="480px">
-        <mj-text padding-top="0" padding-bottom="0" mj-class="T cT+1"><span style="font-weight:700;">{{ contact.PRENOM }}</span>, les métiers du Commerce et du Marketing vous intéressent ?</mj-text>
-        <mj-text padding-top="0" padding-bottom="0" mj-class="T cT+1">Vous souhaitez intégrer ce secteur et développer vos compétences dans le cadre d'une <span style="font-weight:700;">alternance</span>... venez nous rejoindre </mj-text>
-        <mj-text align="center" mj-class="T+1 c+1">Samedi 23 novembre de 9h30 à 13h.</mj-text>
-        <mj-text padding-top="0" padding-bottom="0" mj-class="T cT+1">Qu'il s'agisse de vous réorienter ou de vous professionnaliser, vous trouverez auprès de nos équipes, <span style="font-weight:700;">toutes les réponses à vos questions</span>.</mj-text>
-        <mj-text padding-top="0" padding-bottom="0" mj-class="T cT+1">Venez découvrir notre <span style="font-weight:700;">campus</span> et rencontrer nos <span style="font-weight:700;">intervenants</span> et <span style="font-weight:700;">professionnels reconnus</span>.</mj-text>
-        <mj-text padding-top="0" padding-bottom="0" mj-class="T cT+1">Une invitation à ne pas manquer pour devenir l'acteur de votre avenir et <span style="font-weight:700;">gagner en compétences</span> !</mj-text>
-      </mj-column>
+    <mj-section padding="0" mj-class="bg-0">
+      <mj-group width="50%">
+        <mj-column width="100%">
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/c2J7RNK/affjpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 14 décembre 2024"/>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="50%">
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/7p8nF7C/02assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>     
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/6vGTNbk/03assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>     
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/0rsGYy0/01assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/vdr8Bs4/04assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>
+        </mj-column>
+      </mj-group>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
       <mj-column>
         <mj-button vertical-align="middle" border-radius="5px" mj-class="T bg+1" color="#ffffff" href="https://ecosup-assurance.fr/wp-content/uploads/2024/12/jpo14122024.ics"><span style="font-weight:700;">Ajoutez à votre agenda</span> &nbsp;&nbsp;&nbsp;<img style="vertical-align:middle;" width="30px" src="https://i.ibb.co/F3gpDZ3/icon-Blanc-Calendrier.png" href="https://ecosup-assurance.fr/wp-content/uploads/2024/12/jpo14122024.ics"/></mj-button>
       </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff">
-      <mj-group>
-        <mj-column width="50%" padding="8px" vertical-align="middle">
-          <mj-image align="right" padding="0" src="https://i.ibb.co/yQ9SZKR/Marie-Laurencejpo25052024.jpg" width="120px" alt="Marie Laurence Wallaert, responsable pédagogique Ecosup Commerce"/>
-        </mj-column>
-        <mj-column width="50%" padding="8px" vertical-align="middle">
-          <mj-text padding="0" mj-class="T cT+1"><strong>Marie Laurence <span style="text-transform:uppercase">Wallaert</span></strong></mj-text>
-          <mj-text padding="0" mj-class="T cT+1">Responsable pédagogique</mj-text>
-          <mj-text padding="0" mj-class="T cT+1">Ecosup Commerce</mj-text>
-        </mj-column>
-      </mj-group>
     </mj-section>
     <mj-section background-color="#ffffff" padding-bottom="0">
       <mj-column width="480px">
