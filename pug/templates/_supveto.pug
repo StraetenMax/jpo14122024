@@ -1,7 +1,7 @@
 mjml
     //- Head
     mj-head
-        mj-title JPO du 23 novembre 2024 Ecosup
+        mj-title JPO du 14 décembre 2024 Ecosup
         mj-font(name='Roboto' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap')
         mj-raw.
             <meta name='color-scheme' content='light'/>
@@ -12,19 +12,21 @@ mjml
             <meta name="format-detection" content="email=no"/>
         mj-attributes
             mj-all(font-family='Roboto, Arial, Helvetica,sans serif')/
-            mj-class(name='T+2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='30px' line-height='34px' font-weight='700')/
+            mj-class(name='T+3' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='36px' line-height='36px' font-weight='900')/
+            mj-class(name='T+2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='24px' line-height='28px' font-weight='700')/
             mj-class(name='T+1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight='700')/
             mj-class(name='T' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight="400")/
             mj-class(name='T-1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='13px' line-height='15px' font-weight="400")/
             mj-class(name='T-2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='12px' line-height='16px' font-weight="400")/
+            mj-class(name='L' align="left" border-style="solid" border-width='0.75px' width="80px" padding="10px 0")
             //- couleurs modifiables
-            mj-class(name="cT+1" color="#14141f")/
+            mj-class(name="cT+1" color="#14141f" border-color="#14141f")/
             mj-class(name="cT+0" color="#626262")/
             mj-class(name="c-0" color="#76b82a")/
             mj-class(name="bg-0" background-color="#76b82a")/
             mj-class(name="c+1" color="#007d3e")/
             mj-class(name="bg+1" background-color="#007d3e")/
-        mj-breakpoint(width="500px")
+        mj-breakpoint(width="480px")
         mj-style.
             .c11{
                 color: #007d3e !important;
@@ -43,6 +45,9 @@ mjml
                     width: 100% !important;
                     padding-top:10px !important;
                 }
+                .stop{
+                    display: none !important;
+                }
             }
     //- Body
     mj-body(background-color='#efefef')
@@ -51,15 +56,18 @@ mjml
         //- bloc header supveto
         block headSupveto
             include ../includes/supveto/_headSupveto
-        //- bloc article supveto
-        block artSupveto
-            include ../includes/supveto/_artSupveto
-        //- bloc button
-        block button
-            include ../includes/_button
+        //- bloc article image supveto
+        block imgSupveto
+            include ../includes/supveto/_imgSupveto
         //- bloc signature Julie
         block signJulie
             include ../includes/supveto/_signJulie
+        //- bloc article text supveto
+        block textSupveto
+            include ../ncludes/supveto/_textSupveto
+        //- bloc button
+        block button
+            include ../includes/_button
         //- bloc partenaires supveto
         block partSupveto
             include ../includes/supveto/_partSupveto
