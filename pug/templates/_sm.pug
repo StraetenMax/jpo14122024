@@ -1,7 +1,7 @@
 mjml
     //- Head
     mj-head
-        mj-title JPO du 23 novembre 2024 Ecosup
+        mj-title JPO du 14 décembre 2024 Ecosup
         mj-font(name='Roboto' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap')
         mj-raw.
             <meta name='color-scheme' content='light'/>
@@ -12,13 +12,15 @@ mjml
             <meta name="format-detection" content="email=no"/>
         mj-attributes
             mj-all(font-family='Roboto, Arial, Helvetica,sans serif')/
-            mj-class(name='T+2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='30px' line-height='34px' font-weight='700')/
+            mj-class(name='T+3' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='36px' line-height='36px' font-weight='900')/
+            mj-class(name='T+2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='24px' line-height='28px' font-weight='700')/
             mj-class(name='T+1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight='700')/
             mj-class(name='T' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight="400")/
             mj-class(name='T-1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='13px' line-height='15px' font-weight="400")/
             mj-class(name='T-2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='12px' line-height='16px' font-weight="400")/
+            mj-class(name='L' align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0")
             //- couleurs modifiables
-            mj-class(name="cT+1" color="#14141f")/
+            mj-class(name="cT+1" color="#14141f" border-clor="#14141f")/
             mj-class(name="cT+0" color="#626262")/
             mj-class(name="c-0" color="#269785")/
             mj-class(name="bg-0" background-color="#269785")/
@@ -43,6 +45,9 @@ mjml
                     width: 100% !important;
                     padding-top:10px !important;
                 }
+                .stop{
+                    display: none !important;
+                }
             }
     //- Body
     mj-body(background-color='#efefef')
@@ -52,16 +57,19 @@ mjml
         block headSM
             include ../includes/sm/_headSM
         //- bloc article sm
-        block artSM 
-            include ../includes/sm/_artSM
-        //- bloc button
-        block button
-            include ../includes/_button
+        block imgSM 
+            include ../includes/sm/_imgSM
         //- bloc signature Sandrine
         block signSandrine
             include ../includes/sm/_signSandrine
+        //- bloc article sm
+        block textSM
+            include ../includes/sm/_textSM
+        //- bloc button
+        block button
+            include ../includes/_button
         //- bloc partenaires hôtellerie
-        block partHotellerie
+        block partSM
             include ../includes/sm/_partSM
         //- bloc syrendre
         block transport
