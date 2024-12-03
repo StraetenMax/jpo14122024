@@ -15,7 +15,10 @@
         {
             'image':'https://i.ibb.co/PCdy14J/logo2.jpg',
             'alt':'logo couleur Lewis'
-        },
+        }
+    ]
+-
+    const logosList2 = [
         {
             'image':'https://i.ibb.co/1nyt9QW/logo1.jpg',
             'alt':'logo couleur Carrefour'
@@ -34,7 +37,7 @@
         }
     ]
 -
-    const logosList2 = [
+    const logosList3 = [
         {
             'image':'https://i.ibb.co/TvFhqZ6/logo7.jpg',
             'alt':'logo couleur Bouygues Telecom'
@@ -50,7 +53,10 @@
         {
             'image':'https://i.ibb.co/6PXjrWM/logo12.jpg',
             'alt':'logo couleur Bureau Vallée'
-        },
+        }
+    ]
+-
+    const logosList4 = [
         {
             'image':'https://i.ibb.co/gMT39C5/logo14.jpg',
             'alt':'logo couleur Vaporama'
@@ -72,12 +78,20 @@
 mj-section(background-color="#ffffff" padding-bottom="0")
     mj-column(width="480px")
         mj-text(padding-bottom='0' padding-top='0' mj-class="T cT+1") #[span(style="font-weight:700") Entreprises partenaires] qui accueillent nos étudiants
-mj-section(background-color="#ffffff" padding-bottom="40px") 
-    mj-group(width="480px")
+mj-section(background-color="#ffffff" padding="20px 28px 40px 28px") 
+    mj-group(width="50%")
         each logo in logosList1
-            mj-column(padding="4px")
+            mj-column(width="25%" padding="2px")
                 mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/
-    mj-group(width="480px")
+    mj-group(width="50%")
         each logo in logosList2
-            mj-column(padding="4px")
+            mj-column(width="25%" padding="2px")
+                mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/
+    mj-group(width="50%")
+        each logo in logosList3
+            mj-column(width="25%" padding="2px")
+                mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/
+    mj-group(width="50%")
+        each logo in logosList4
+            mj-column(width="25%" padding="2px")
                 mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/
