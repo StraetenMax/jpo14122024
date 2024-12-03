@@ -1,7 +1,7 @@
 mjml
     //- Head
     mj-head
-        mj-title JPO du 14 décembre 2024 Ecosup
+        mj-title JPO du 23 novembre 2024 Ecosup
         mj-font(name='Roboto' href='https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap')
         mj-raw.
             <meta name='color-scheme' content='light'/>
@@ -12,24 +12,22 @@ mjml
             <meta name="format-detection" content="email=no"/>
         mj-attributes
             mj-all(font-family='Roboto, Arial, Helvetica,sans serif')/
-            mj-class(name='T+3' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='36px' line-height='36px' font-weight='900')/
-            mj-class(name='T+2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='24px' line-height='28px' font-weight='700')/
+            mj-class(name='T+2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='30px' line-height='34px' font-weight='700')/
             mj-class(name='T+1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight='700')/
             mj-class(name='T' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight="400")/
             mj-class(name='T-1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='13px' line-height='15px' font-weight="400")/
             mj-class(name='T-2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='12px' line-height='16px' font-weight="400")/
-            mj-class(name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0")
             //- couleurs modifiables
-            mj-class(name="cT+1" color="#14141f" border-color="#14141f")/
+            mj-class(name="cT+1" color="#14141f")/
             mj-class(name="cT+0" color="#626262")/
-            mj-class(name="c-0" color="#f088b6")/
-            mj-class(name="bg-0" background-color="#f088b6")/
-            mj-class(name="c+1" color="#ec619f")/
-            mj-class(name="bg+1" background-color="#ec619f")/
-        mj-breakpoint(width="480px")
+            mj-class(name="c-0" color="#f6a86e")/
+            mj-class(name="bg-0" background-color="#f6a86e")/
+            mj-class(name="c+1" color="#ec6608")/
+            mj-class(name="bg+1" background-color="#ec6608")/
+        mj-breakpoint(width="500px")
         mj-style.
             .c11{
-                color: #ec619f !important;
+                color: #ec6608 !important;
             }
             .cT00{
                 color: #626262 !important;
@@ -45,32 +43,26 @@ mjml
                     width: 100% !important;
                     padding-top:10px !important;
                 }
-                .stop{
-                    display: none !important;
-                }
             }
     //- Body
     mj-body(background-color='#efefef')
         //- content
         block content
-        //- bloc head Dietetique
-        block headDietetique
-            include ../includes/dietetique/_headDietetique
-        //- bloc article image Diététique
-        block imgDietetique
-            include ../includes/dietetique/_imgDietetique
-        //- bloc signature Jerome
-        block signJerome
-            include ../includes/dietetique/_signJeromeDiet
-        //- bloc article texte Diététique
-        block textDietetique
-            include ../includes/dietetique/_textDietetique
+        //- bloc header Commerce
+        block headCommerce
+            include ../includes/commerce/_headCommerce
+        //- bloc article Commmerce
+        block artCommerce
+            include ../includes/commerce/_artCommerce
         //- bloc button
         block button
             include ../includes/_button
-        //- bloc partenaires Diététique
-        block partDietetique
-            include ../includes/dietetique/_partDietetique
+        //- bloc signature Marie Laurence
+        block signMLaurence
+            include ../includes/commerce/_signMLaurence
+        //- bloc partenaires Commerce
+        block partCommerce
+            include ../includes/commerce/_partCommerce
         //- bloc syrendre
         block transport
             include ../includes/_transport
