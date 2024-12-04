@@ -22,15 +22,15 @@
       <mj-class name="L" align="left" border-style="solid" border-width="0.75px" width="80px" padding="10px 0"></mj-class>
       <mj-class name="cT+1" color="#14141f" border-color="#14141f"/>
       <mj-class name="cT+0" color="#626262"/>
-      <mj-class name="c-0" color="#76b82a"/>
-      <mj-class name="bg-0" background-color="#76b82a"/>
-      <mj-class name="c+1" color="#007d3e"/>
-      <mj-class name="bg+1" background-color="#007d3e"/>
+      <mj-class name="c-0" color="#684092"/>
+      <mj-class name="bg-0" background-color="#684092"/>
+      <mj-class name="c+1" color="#ba4995"/>
+      <mj-class name="bg+1" background-color="#ba4995"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
       .c11{
-          color: #007d3e !important;
+          color: #ba4995 !important;
       }
       .cT00{
           color: #626262 !important;
@@ -60,7 +60,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" border-radius="20px 20px 0 0">
       <mj-column>
-        <mj-image width="200px" src="https://i.ibb.co/ZG9PhKp/supveto-signature.png" alt="logo Supveto Lille"></mj-image>
+        <mj-image width="200px" src="https://i.ibb.co/V9r4qZ4/ECOSUP-ASSURANCE.png" alt="logo Ecosup Assurance"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section padding="0" mj-class="bg-0">
@@ -71,44 +71,51 @@
       </mj-group>
       <mj-group width="50%">
         <mj-column width="50%">
-          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/7p8nF7C/02assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>     
-          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/6vGTNbk/03assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>     
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/7p8nF7C/02assurancejpo14122024.jpg" target="_blank" alt="Étudiants exprimant leur staisfaction, leur joie de vivre"/>     
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/6vGTNbk/03assurancejpo14122024.jpg" target="_blank" alt="Soirée de la remise des diplômes à Ecosup Assurance"/>     
         </mj-column>
         <mj-column width="50%">
-          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/0rsGYy0/01assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>
-          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/vdr8Bs4/04assurancejpo14122024.jpg" target="_blank" alt="Affiche de la Journée Portes Ouvertes du samedi 23 novembre 2024"/>
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/0rsGYy0/01assurancejpo14122024.jpg" target="_blank" alt="Assurance habitation : protection de la famille"/>
+          <mj-image width="300px" padding="0" border="none" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/vdr8Bs4/04assurancejpo14122024.jpg" target="_blank" alt="Étudiants travillant sur leur projet"/>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section padding-bottom="0" padding-left="20px" padding-right="20px" background-color="#ffffff">
       <mj-group width="300px">
         <mj-column width="30%" padding="4px">
-          <mj-image align="right" padding="0" src="https://i.ibb.co/G3fJzLp/Juliejpo25052024.jpg" width="120px" alt="Julie Kokocinski, responsable pédagogique Supveto Lille"/>
+          <mj-image align="right" padding="0" src="https://i.ibb.co/xMNMtSs/c-A25052024.jpg" width="120px" alt="Christian Annaloro, responsable pédagogique Ecosup Assurance"/>
         </mj-column>
-        <mj-column width="70%" padding="4px" vertical-align="bottom">
-          <mj-text align="left" padding="0" mj-class="T-1 cT+1"><strong>Julie <span style="text-transform:uppercase">Kokocinski</span></strong></mj-text>
+        <mj-column width="70%" vertical-align="bottom" padding="4px">
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1"><strong>Christian <span style="text-transform:uppercase">Annaloro</span></strong></mj-text>
           <mj-text align="left" padding="0" mj-class="T-1 cT+1">Responsable pédagogique</mj-text>
-          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Supveto Lille</mj-text>
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Ecosup Assurance</mj-text>
+          <mj-text align="left" padding="0" mj-class="T-1 cT+1">Membre BNI France</mj-text>
         </mj-column>
       </mj-group>
       <mj-column width="30%"></mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0 20px">
-      <mj-column width="20%" padding="10px" css-class="stop" vertical-align="middle">
-        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/Zc6WLhF/logo-Ipamjpo12142024.png" alt="logo IPAM"/>
+      <mj-column width="20%" padding="10px" css-class="stop" vertical-align="top">
+        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png" alt="logo académie de Lille"/>
         <mj-divider mj-class="L cT+1"></mj-divider>
-        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png" alt="logo Formatives, Network"/>
+        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/sJCtDXM/logo-ESAjpo12142024.png" alt="logo ESA École Supérieure d'Assurance"/>
         <mj-divider mj-class="L cT+1"></mj-divider>
         <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png" alt="logo RNCP"/>
         <mj-divider mj-class="L cT+1"></mj-divider>
         <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png" alt="logo Qualiopi : Action de formation, Action de formation par apprentissage"/>
         <mj-divider mj-class="L cT+1"></mj-divider>
+        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/G09QhCx/logo-BNIjpo12142024.png" alt="logo BNI culture business"/>
+        <mj-divider mj-class="L cT+1"></mj-divider>
+        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/zhX9L5R/logo-AGEAjpo12142024.png" alt="logo AGEA agent général d'assurance"/>
+        <mj-divider mj-class="L cT+1"></mj-divider>
+        <mj-image align="left" padding="0" border="NONE" width="70px" src="https://i.ibb.co/mJ8m8cb/logo-Graftonjpo12142024.png" alt="logo Grafton"/>
+        <mj-divider mj-class="L cT+1"></mj-divider>
       </mj-column>
-      <mj-column width="80%" padding="10px" vertical-align="middle">
-        <mj-text align="left" padding="0" mj-class="T+3 c+1">Supveto vous ouvre ses Portes !</mj-text>
+      <mj-column width="80%" padding="10px" vertical-align="top">
+        <mj-text align="left" padding="0" mj-class="T+3 c+1">Ecosup Assurance vous ouvre ses Portes !</mj-text>
         <mj-spacer height="10px"></mj-spacer>
-        <mj-text padding="0" mj-class="T cT+1"><span style="font-weight:700;">{{ contact.PRENOM }}</span>, les métiers de la Santé animale vous intéressent ?</mj-text>
-        <mj-text padding="0" mj-class="T cT+1">Vous souhaitez intégrer ce secteur et développer vos compétences professionnelles afin de <span style="font-weight:700;">travailler</span> avec les <span style="font-weight:700;">animaux</span>... venez nous rejoindre </mj-text>
+        <mj-text padding="0" mj-class="T cT+1"><span style="font-weight:700;">{{ contact.PRENOM }}</span>, les métiers de l'Assurance et de la Banque vous intéressent ?</mj-text>
+        <mj-text padding="0" mj-class="T cT+1">Vous souhaitez intégrer ce secteur et développer vos compétences dans le cadre d'une <span style="font-weight:700;">alternance</span>... venez nous rejoindre </mj-text>
         <mj-text padding-bottom="0" mj-class="T+2 c+1">Samedi 14 décembre</mj-text>
         <mj-text padding-top="0" mj-class="T+2 c+1">de 9h30 à 13h.</mj-text>
         <mj-text padding="0" mj-class="T cT+1">Qu'il s'agisse de vous réorienter ou de vous professionnaliser, vous trouverez auprès de nos équipes, <span style="font-weight:700;">toutes les réponses à vos questions</span>.</mj-text>
@@ -127,38 +134,60 @@
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 28px 40px 28px"> 
-      <mj-group width="100%">
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/BjzPxXP/logo-Supveto10.jpg" alt="logo Clinique Vétérinaire"/>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3CfWWxL/Logo-Assurance14.jpg" alt="logo couleur AXA assurance"/>
         </mj-column>
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s2pZHFf/logo-Supveto09.jpg" alt="logo AniCura"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/h8YcCy9/Logo-Assurance13.jpg" alt="logo couleur SMA btp"/>
         </mj-column>
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r6kmn81/logo-Supveto08.jpg" alt="logo Biotopia&quot;"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/XspTwRh/Logo-Assurance12.jpg" alt="logo couleur DLM location"/>
         </mj-column>
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/mFnZNt1/logo-Supveto07.jpg" alt="logo Clinique Vétérinaire"/>
-        </mj-column>
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/jrZ9y7j/logo-Supveto06.jpg" alt="logo LPA"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1vDhhpM/Logo-Assurance11.jpg" alt="logo couleur Concilian"/>
         </mj-column>
       </mj-group>
-      <mj-group width="100%">
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PwXYWZC/logo-Supveto05.jpg" alt="logo Clinique Vétérinaire de Linselles"/>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/xY71s8T/Logo-Assurance10.jpg" alt="logo couleur Mésange Prévoyance"/>
         </mj-column>
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/NLgM4B7/logo-Supveto04.jpg" alt="logo Vétérinaire Pommery"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r3LzxSd/Logo-Assurance09.jpg" alt="logo couleur groupe Henner"/>
         </mj-column>
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/tbhMMH6/logo-Supveto03.jpg" alt="logo Clinique Vétérinaire Porte des Weppes"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/phdSYvJ/Logo-Assurance16.jpg" alt="logo caisse d'Épargne"/>
         </mj-column>
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/bgqVSsD/logo-Supveto02.jpg" alt="logo Lux Vet"/>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/KNS4FXx/Logo-Assurance08.jpg" alt="logo couleur Allianz assurance"/>
         </mj-column>
-        <mj-column width="20%" padding="2px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QFWSt0w/logo-Supveto01.jpg" alt="logo Hôpital Vétérinaire des Laurentides"/>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/s3Qyqv3/Logo-Assurance07.jpg" alt="logo couleur Swiss Life"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Qpm6jgs/Logo-Assurance06.jpg" alt="logo couleur Humanis Malakoff"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qdq473M/Logo-Assurance15.jpg" alt="logo couleur Sofinco"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gP4PsSM/Logo-Assurance04.jpg" alt="logo couleur Deledalle courtier d'assurances"/>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zJXqcYB/Logo-Assurance17.jpg" alt="logo couleur Credit Agricole"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/mzbfQs1/Logo-Assurance03.jpg" alt="logo 2M votre courtier assurancess"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6J8BVCd/Logo-Assurance02.jpg" alt="logo couleur MMA assurance"/>
+        </mj-column>
+        <mj-column width="25%" padding="2px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8r9FGG5/Logo-Assurance01.jpg" alt="logo couleur Diot groupe Diot Siaci"/>
         </mj-column>
       </mj-group>
     </mj-section>//- Comment s'y rendre
