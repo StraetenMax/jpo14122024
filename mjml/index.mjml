@@ -72,11 +72,11 @@
       <mj-group width="50%">
         <mj-column width="50%">
           <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-sante.fr/dietetique" src="https://i.ibb.co/B4ZkGjD/03diet-JPO14122024.jpg" target="_blank" alt="Séance de consultation en cabinet médical"/>     
-          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-sante.fr/diététique" src="https://i.ibb.co/6vGTNbk/03assurancejpo14122024.jpg" target="_blank" alt="Chapeaux lancés lors de la soirée de la remise des diplômes"/>     
+          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-sante.fr/dietetique" src="https://i.ibb.co/6vGTNbk/03assurancejpo14122024.jpg" target="_blank" alt="Soirée de la remise des diplômes à Ecosup Campus"/>     
         </mj-column>
         <mj-column width="50%">
-          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/0rsGYy0/01assurancejpo14122024.jpg" target="_blank" alt="Etudiants au travail sur l'un de leurs projets de fin d'année"/>
-          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-assurance.fr" src="https://i.ibb.co/9gg9L5N/02diet-JPO14122024.jpg" target="_blank" alt="Balance et tour de taille pour mesurer les personnes"/>
+          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-sante.fr/dietetique" src="https://i.ibb.co/0rsGYy0/01assurancejpo14122024.jpg" target="_blank" alt="Etudiants au travail sur l'un de leurs projets de fin d'année"/>
+          <mj-image width="300px" padding="0" border="0" fluid-on-mobile="true" href="https://ecosup-sante.fr/dietetique" src="https://i.ibb.co/9gg9L5N/02diet-JPO14122024.jpg" target="_blank" alt="Balance et tour de taille pour mesurer les personnes"/>
         </mj-column>
       </mj-group>
     </mj-section>
