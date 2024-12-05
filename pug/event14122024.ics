@@ -2,13 +2,10 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//hacksw/handcal//NONSGML v1.0//EN
 BEGIN:VEVENT
-TZID:Europe/Brussels
-UID:20241205T090000Z@ecosup-campus.fr 
-DTSTAMP:20241205T090000Z 
+UID:20241205T093000Z@ecosup-campus.fr  
 DTSTART:20241214T093000Z 
 DTEND:20241214T130000Z 
 SUMMARY:Ecosup Campus - Journée Portes Ouvertes
-LOCATION:Tourcoing\, 17 place Albert et Charles Roussel
-CLASS:PUBLIC
+LOCATION:Tourcoing, 17 place Albert et Charles Roussel
 END:VEVENT
 END:VCALENDAR
