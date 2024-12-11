@@ -1,34 +1,22 @@
 -
     const logosList = [
         {
-            'image':'https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png',
-            'alt':'logo Academie de Lille'
-        },
-        {
-            'image':'https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png',
-            'alt':'logo Formatives, network'
-        },
-        {
-            'image':'https://i.ibb.co/4KBjqnQ/logo-Fedejpo12142024.png',
-            'alt':'logo Fede'
-        },
-        {
             'image':'https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png',
             'alt':'logo RNCP'
         },
         {
             'image':'https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png',
             'alt':'logo Qualiopi : Action de formation, Action de formation par apprentissage'
-        },
+        }
     ]
 
 //- section Texte   
 mj-section(background-color='#ffffff' padding='0 20px')  
-        mj-column(width="20%" padding="10px" css-class="stop" vertical-align="middle")
+        mj-column(width="20%" padding="10px" css-class="stop" vertical-align="top")
             each logo in logosList
                     mj-image(align="left" padding="0" border="none" width="70px" src=logo.image alt=logo.alt)/
                     mj-divider(mj-class="L cT+1")
-        mj-column(width='80%' padding="10px" vertical-align="middle")
+        mj-column(width='80%' padding="10px")
             mj-text(align="left" padding="0" mj-class='T+3 c+1') Ecosup Tourisme vous ouvre ses Portes !
             mj-spacer(height='10px')
             mj-text(padding='0' mj-class='T cT+1') #[span(style='font-weight:700;') {{ contact.PRENOM }}], après nos échanges sur le #[span(style="font-weight:700;") salon de l'Étudiant à Dunkerque] pour la formation #[span(style="font-weight:700;") {{ contact.FORMATION }}] en alternance, nous vous invitons le
@@ -36,5 +24,5 @@ mj-section(background-color='#ffffff' padding='0 20px')
             mj-text(padding-top="0" mj-class='T+2 c+1') de 9h30 à 13h.
             mj-text(padding='0' mj-class='T cT+1') à découvrir notre #[span(style='font-weight:700;') campus] et rencontrer nos #[span(style='font-weight:700;') intervenants] et #[span(style="font-weight:700;") professionnels reconnus].
             mj-text(padding='0'  mj-class='T cT+1') Une invitation à ne pas manquer pour devenir l'acteur de votre avenir et #[span(style='font-weight:700;') gagner en compétences] !
-            mj-spacer(height="60px")
+            mj-spacer(height="40px")
             mj-text(padding='0' text-transform="uppercase" mj-class="T+1 c+1") Entreprises partenaires qui accueillent nos étudiants
