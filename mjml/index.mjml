@@ -180,7 +180,7 @@
     </mj-section>
     <mj-section background-color="#dfdfdf" padding="0">
       <mj-column width="40%" vertical-align="middle">
-        <mj-image padding="0" fluid-on-mobile="true" width="600px" src="https://i.ibb.co/NSTCgYc/carte-JPO14122024.jpg" href="https://www.google.com/maps/dir//+50.72123+,+3.15686" target="_blank" alt="carte des transports permettant d'aller à Ecosup Campus"></mj-image>
+        <mj-image padding="0" fluid-on-mobile="true" width="600px" src="https://i.ibb.co/9GXp0fS/carte-JPO14122024.jpg" href="https://www.google.com/maps/dir//+50.72123+,+3.15686" target="_blank" alt="carte des transports permettant d'aller à Ecosup Campus"></mj-image>
       </mj-column>
       <mj-column width="60%" vertical-align="middle">
         <mj-text mj-class="T+1 c+1" text-transform="uppercase">Comment s'y rendre ?</mj-text>
